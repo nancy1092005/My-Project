@@ -7,7 +7,7 @@ import axios from "axios";
     async function FindAllHandler(e){
         e.preventDefault();
         try{
-            const response = await axios.get("http://localhost:3002/api/employees");
+            const response = await axios.get("https://my-project-roxw.onrender.com/api/employees");
             setEmployees(response.data);
         }
         catch(err){
