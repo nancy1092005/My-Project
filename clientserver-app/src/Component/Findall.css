@@ -1,0 +1,93 @@
+/* Findall.css */
+
+body {
+  background-color: #ffe0ec;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container */
+.find-all-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffb6c1;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading style */
+.find-all-container h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+/* Underline */
+.find-all-container hr {
+  border: none;
+  height: 2px;
+  background-color: #c2185b;
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+/* Button */
+.find-all-container button {
+  background-color: #d63384;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.find-all-container button:hover {
+  background-color: #ad1457;
+}
+
+/* Table */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* Table Head */
+.employee-table th {
+  background-color: #f06292;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Table Body */
+.employee-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ffc1e3;
+  font-size: 0.95rem;
+}
+
+/* Alternate Row */
+.employee-table tr:nth-child(even) {
+  background-color: #ffe4ec;
+}
+
+/* No record style */
+.employee-table td[colspan="4"] {
+  font-style: italic;
+  color: #9e004f;
+  font-weight: 500;
+}

@@ -1,0 +1,76 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe0ec;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5vh 5vw;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #111;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+/* NavLinks style */
+nav a {
+  text-decoration: none;
+  color: #d63384;
+  background-color: lightpink;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #d63384;
+  color: #fff;
+}
+
+nav a.active {
+  background-color:#d63384;
+  color: white;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    width: 90%;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,73 @@
+/* Update.css */
+
+body {
+  background-color: #ffe0ec;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center container */
+.update-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffb6c1;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.update-container h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+/* Underline */
+.update-container hr {
+  border: none;
+  height: 2px;
+  background-color: #c2185b;
+  width: 80%;
+  margin: 10px auto 30px;
+}
+
+/* Input styling */
+.update-container input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ff5c8d;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+/* Input focus effect */
+.update-container input[type="text"]:focus {
+  border-color: #c2185b;
+  box-shadow: 0 0 5px rgba(194, 24, 91, 0.5);
+}
+
+/* Button styling */
+.update-container button {
+  background-color: #d63384;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.update-container button:hover {
+  background-color: #ad1457;
+}
